@@ -41,7 +41,12 @@ header h1 {
     color: #333;
     font-size: 1.2em;
     margin: 0;
-    margin-top: 30px; /* Añade espacio entre los módulos */
+    margin-top: 25px; /* Añade espacio entre los módulos */
+}
+
+/* Eliminar el espacio superior del primer título del módulo */
+.modulos h2:first-of-type {
+    margin-top: 0; /* Elimina el margen superior del primer título de módulo */
 }
 
 .modulos a {
